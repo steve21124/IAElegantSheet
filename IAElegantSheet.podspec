@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://ikhsan.me"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Ikhsan Assaat" => "ikhsan.assaat@gmail.com" }
-  s.source       = { :git => "https://github.com/ixnixnixn/IAElegantSheet.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/steve21124/IAElegantSheet.git", :tag => s.version.to_s }
   s.platform     = :ios, '6.0'
   s.source_files = 'IAElegantSheet/*.{h,m}'
   s.resources    = 'Resources/*'

@@ -162,7 +162,7 @@ CGFloat const Alpha = 0.75;
 	__block CGFloat cursor = f.size.height;
     UIFont *buttonFont = [UIFont elegantFontWithSize:14.0];
     [self.buttonTitles enumerateObjectsUsingBlock:^(NSString *buttonTitle, NSUInteger index, BOOL *stop) {
-        CGFloat labelHeight = 32.0;
+        CGFloat labelHeight = 40.0;
         
 		UIButton *optionButton = [UIButton buttonWithType:UIButtonTypeCustom];
 		optionButton.tag = index;
